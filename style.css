@@ -67,14 +67,14 @@ body {
 }
 
 .apresentacao__conteudo__info__img {
-    margin-right: 5%; /* Ajuste conforme necessário */
+    margin-right: 5%; 
 }
 
 h1 {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
-    font-size: 2.16rem; /* alterar, de px para rem, de forma que o projeto se adapte ao tamanho estabelecido pelo usuário */
+    font-size: 2.16rem; 
     width: 25%;
     color: var(--cor-primaria);
 }
@@ -105,9 +105,9 @@ h2 {
 }
 
 .input-text:focus, textarea:focus {
-    border-color: var(--cor-primaria); /* Borda personalizada ao focar */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efeito de sombra ao focar */
-    outline: none; /* Remove a borda de foco padrão */
+    border-color: var(--cor-primaria); 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    outline: none; 
 }
 
 .apresentacao__conteudo__output__text {
@@ -147,7 +147,7 @@ h2 {
 
 .saidaDeTexto__elementos {
     font-family: var( --fonte-secundaria);
-    text-align: justify; /* Alinha o texto para justificar */
+    text-align: justify; 
     font-size: 1.56rem;
     display: flex;
     text-align: center;
@@ -159,7 +159,7 @@ h2 {
     margin-bottom: 10%;
     width: 600px;
     height: 1090px;
-    padding: 20%; /* Ajuste o padding para dar espaço ao texto */
+    padding: 20%; 
     gap: 20px;
     border: 1px solid #ccc;
     border-radius: 55px;
@@ -181,7 +181,7 @@ h2 {
     margin-bottom: 10%;
     width: 600px;
     height: 1090px;
-    padding: 10%; /* Ajuste o padding para dar espaço ao texto */
+    padding: 10%;
     gap: 20px;
     border: 1px solid #ccc;
     border-radius: 55px;
@@ -191,7 +191,7 @@ h2 {
 
 .texto-saida {
     font-family: var( --fonte-secundaria);
-    text-align: justify; /* Alinha o texto para justificar */
+    text-align: justify; 
     font-size: 1.56rem;
     word-break: break-all;
     word-wrap: break-word;
@@ -258,14 +258,14 @@ footer {
     top: 110%;
     bottom: 5%;
     width: 100%;
-    padding: 5px; /* Espaçamento interno opcional */ /* Centraliza o texto no footer */
+    padding: 5px; 
 }
 
 .propriedades__inferiores {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens verticalmente */
-    margin: 0 auto; /* Garante que o conteúdo seja centralizado horizontalmente */
+    align-items: center; 
+    margin: 0 auto; 
     white-space: pre-wrap;
 }
 
