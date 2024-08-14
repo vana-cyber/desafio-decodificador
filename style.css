@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime&family=Share+Tech+Mono&family=Syne+Mono&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+:root {
+    --cor-de-fundo-1: #FFF7AD;
+    --cor-de-fundo-2: #CDA6FF;
+    --cor-primaria: #5E17EB;
+    --cor-secundaria: #FBDEF9;
+    --cor-secundaria-hover: #ffc0fb;
+    --cor-terciaria: #544AFF;
+    --cor-terciaria-hover: #8983f8;
+    --cor-quaternaria: #48423D;
+    --cor-quinta: #5200f7;
+    --cor-sexta: #EDCDCD;
+    --cor-sexta-hover: beige;
+    --cor-saida-texto: white;
+    --fonte-primaria: "Courier Prime", monospace;
+    --fonte-secundaria: "Share Tech Mono", monospace;
+    --fonte-terciaria: "Syne Mono", monospace;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor-de-fundo-1), var(--cor-de-fundo-2));
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0% 0% 5% 0%;
+    gap: 41px;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 5%;
+    gap: 20px;
+    padding: 10% 10% 5% 0%;
+}
+
+.apresentacao__conteudo__info {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.apresentacao__conteudo__info__img {
+    margin-right: 5%; /* Ajuste conforme necessário */
+}
+
+h1 {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.16rem; /* alterar, de px para rem, de forma que o projeto se adapte ao tamanho estabelecido pelo usuário */
+    width: 25%;
+    color: var(--cor-primaria);
+}
+
+h2 {
+    color: var(--cor-primaria);
+    font-family: var( --fonte-secundaria);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.input-text {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    width: 701px;
+    height: 810px;
+    text-align: start;
+    margin-top: 15%;
+    padding: 15%;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+
+.input-text:focus, textarea:focus {
+    border-color: var(--cor-primaria); /* Borda personalizada ao focar */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efeito de sombra ao focar */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+.apresentacao__conteudo__output__text {
+    padding: 0%;
+    position: relative;
+}
+
+.saidaDeTexto__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 12%;
+    left: 65.3%;
+} 
+
+#botao__copiar {
+    background-color: var(--cor-secundaria);
+    border-radius: 50px;
+    border-color: var(--cor-terciaria);
+    font-size: 1.51rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    height: 98px;
+    width: 328.93px;
+    color: var(--cor-terciaria);
+    transition: 1s;
+}
+
+#botao__copiar:hover,
+#botao__copiar:focus {
+    background-color: var(--cor-secundaria-hover);
+    color: var(--cor-terciaria-hover);
+}
+
+.saidaDeTexto__elementos {
+    font-family: var( --fonte-secundaria);
+    text-align: justify; /* Alinha o texto para justificar */
+    font-size: 1.56rem;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-saida-texto);
+    margin-top: 30%;
+    margin-bottom: 10%;
+    width: 600px;
+    height: 1090px;
+    padding: 20%; /* Ajuste o padding para dar espaço ao texto */
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.saidaDeTexto__elementos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.texto-saida-pai {
+    background-color: var(--cor-saida-texto);
+    margin-top: 30%;
+    margin-bottom: 10%;
+    width: 600px;
+    height: 1090px;
+    padding: 10%; /* Ajuste o padding para dar espaço ao texto */
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+.texto-saida {
+    font-family: var( --fonte-secundaria);
+    text-align: justify; /* Alinha o texto para justificar */
+    font-size: 1.56rem;
+    word-break: break-all;
+    word-wrap: break-word;
+    margin-left: 5%;
+}
+
+p {
+    color: var( --cor-quaternaria);
+    font-size: 1.35rem;
+    font-family: var(--fonte-terciaria);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#botao__criptografar {
+    background-color: var(--cor-terciaria);
+    border-radius: 50px;
+    border-color: var(--cor-terciaria);
+    height: 98px;
+    width: 328.93px;
+    font-size: 1.51rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    color:  var(--cor-sexta);
+    transition: 1s;
+}
+
+#botao__criptografar:hover,
+#botao__criptografar:focus {
+    background-color: var(--cor-quinta);
+    color: var(--cor-sexta-hover);
+}
+
+#botao__descriptografar {
+    background-color: var(--cor-secundaria);
+    border-radius: 50px;
+    border-color: var(--cor-terciaria);
+    font-size: 1.51rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    height: 98px;
+    width: 328.93px;
+    color: var(--cor-terciaria);
+    transition: 1s;
+}
+
+#botao__descriptografar:hover,
+#botao__descriptografar:focus {
+    background-color: var(--cor-secundaria-hover);
+    color: var(--cor-terciaria-hover);
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    top: 110%;
+    bottom: 5%;
+    width: 100%;
+    padding: 5px; /* Espaçamento interno opcional */ /* Centraliza o texto no footer */
+}
+
+.propriedades__inferiores {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 0 auto; /* Garante que o conteúdo seja centralizado horizontalmente */
+    white-space: pre-wrap;
+}
+
+.propriedades__inferiores__creditos {
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-quaternaria);
+    font-size: 1.25rem;
+    font-family: var(--fonte-terciaria);
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+}
+
+.propriedades__inferiores__creditos__desenho {
+    text-align: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-family: var(--fonte-terciaria);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-quinta);
+}
+
+a:hover {
+    color: var(--cor-terciaria-hover);
+}

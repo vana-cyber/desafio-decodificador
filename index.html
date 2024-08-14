@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de texto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1>
+                    <textarea placeholder="Digite seu texto..." class="input-text"></textarea>                   
+                </h1>
+                <div class="apresentacao__conteudo__info">
+                    <img src="./assets/file (7).png" class="apresentacao__conteudo__info__img">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                 </div>
+                <div class="apresentacao__conteudo__botoes">
+                    <button id="botao__criptografar">Criptografar</button>
+                    <button id="botao__descriptografar">Descriptografar</button>
+                </div>
+            </section>
+            <section clas="apresentacao__conteudo__output__text">
+                <div class="hidden">
+                    <div class="texto-saida-pai">
+                        <div class="texto-saida"></div>
+                    </div>
+                </div> 
+                <div class="saidaDeTexto__elementos">  
+                    <img src="./assets/file (2).png" alt="Ilustração gatinho roxo de Halloween">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div> 
+                <div class="saidaDeTexto__botao">
+                    <button id="botao__copiar" style="display: none;">Copiar</button>
+                </div>
+            </section>            
+        </main>
+        <footer>
+            <div class="propriedades__inferiores">
+                    <span class="propriedades__inferiores__creditos__desenho">
+                        <a href="https://www.freepik.com/free-vector/flat-halloween-cat-illustration_17540302.htm#fromView=search&page=1&position=1&uuid=af4779c5-3181-42b7-beae-2aacdd7c5f83">Ilustração: Image by freepik</a>
+                        <a href="https://www.canva.com/icons/MAFV8A1YwIU/">Imagem info: por Trendify</a>
+                    </span>
+                    <span class="propriedades__inferiores__creditos">
+                        Desenvolvido por Geovana Frota.
+                        2024
+                    </span>
+            </div>  
+        </footer>  
+        <script src="script.js"></script>
+    </body>
+</html>
