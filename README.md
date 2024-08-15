@@ -1,2 +1,45 @@
 # Desafio | Decodificador de Texto
-<h2 align=center>Challenge proposto pela Alura e Oracle One.</h2>
+<h2 align=center>
+  ✨Challenge proposto pela Alura e Oracle One.✨</h2>
+
+> Status do Projeto: :heavy_check_mark: 
+
+### Tópicos 
+
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Deploy da Aplicação](#layout-ou-deploy-da-aplicação-dash)
+
+:small_blue_diamond: [Linguagens](#linguagens)
+
+## Descrição do projeto 
+
+<p align="justify">
+ O decodificador de texto tem como objetivo desafiar os estudantes a encontrarem respostas e alternativas para concretizarem seu primeiro projeto Front-End usando as linguagens HTML, CSS e JavaScript. 
+O desafio nos permite colocar em prática tudo o que nos foi repassado pelos instrutores, bem como a buscar conceitos e soluções eficazes para o problema proposto. O encriptador aceita apenas letras sem acento e converte letras maiúsculas em minúsculas.
+</p>
+
+
+## Funcionalidades
+
+:heavy_check_mark: Criptografar;  
+
+:heavy_check_mark: Descriptografar; 
+
+:heavy_check_mark: Copiar.  
+
+## Layout ou Deploy da Aplicação :dash:
+
+> Link do deploy da aplicação.
+
+
+## Linguagens
+
+- HTML
+- CSS
+- JavaScript
+
+
+Copyright :copyright: 2024 - Decodificador de Texto
