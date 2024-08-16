@@ -10,7 +10,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#layout-ou-deploy-da-aplicação-dash)
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
 
 :small_blue_diamond: [Linguagens](#linguagens)
 
@@ -39,9 +39,9 @@ O desafio nos permite colocar em prática tudo o que nos foi repassado pelos ins
 
 :heavy_check_mark: Copiar.  
 
-## Layout ou Deploy da Aplicação :dash:
+## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação.
+> [Link do deploy da aplicação](https://decodificador-de-texto-two-beryl.vercel.app/).
 
 
 
